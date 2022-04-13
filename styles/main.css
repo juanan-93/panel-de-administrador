@@ -1,0 +1,131 @@
+/*====================
+=======Structure======
+======================*/
+
+
+
+header{
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;
+    /* z-index: 1001; */
+}
+
+main{
+    margin: 0 auto;
+    position: relative;
+    /* top: 30vh; ???*/
+    width: 80%;
+    padding: 0% 10%;
+    z-index: 1000;
+}
+
+.only-desktop{
+    display: block;
+}
+
+.only-mobile{
+    display: none;
+}
+
+
+/*====================
+========Columns=======
+======================*/
+
+.desktop-four-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-four-columns .column{
+    width: 22%;
+}
+
+.desktop-three-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-three-columns .column{
+    width: 30%;
+}
+
+.desktop-two-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns .column{
+    width: 48%;
+}
+
+.desktop-two-columns-aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-aside .column-aside{
+    width: 30%;
+}
+
+.desktop-two-columns-aside .column-main{
+    width: 65%;
+}
+
+.desktop-two-columns-inline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-inline .column{
+    width: 48%;
+}
+
+.desktop-two-columns-inline .column div{
+    display: flex;
+    margin-right: 1em;
+}
+
+.desktop-one-column{
+    display: flex;
+    width: 100%;
+}
+
+.desktop-one-column .column{
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.panel-administracion-title{
+    text-align: center;
+}
+
+.panel-administracion-tabla{
+    padding-top: 10%;
+}
+
+.panel-administracion-tabla table{
+    margin: auto;
+    width: 50%;
+}
+
+.panel-administracion-tabla td{
+    text-align: center;
+    padding: 1rem 0;
+    padding: 1rem 0 1rem 0 ;
+}
+
+.panel-administracion-tabla th{
+    background-color: #1F2739;
+}
+
+ 
