@@ -2,6 +2,7 @@ let edits = document.querySelectorAll(".edit");
 let trash = document.querySelectorAll(".delete");
 let tabla = document.getElementById("panel-tabla");
 let from = document.getElementById("from")
+let cerrar = document.getElementById("close")
 
 edits.forEach( edit =>{
     edit.addEventListener("click", () => {

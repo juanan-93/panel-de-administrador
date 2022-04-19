@@ -134,6 +134,7 @@ h5{
 .panel-administracion-tabla{
     transition: all 1s;
     width: 100%;
+    padding: 10% 0 0 0;
 }
 
 .panel-administracion-tabla.active{
@@ -143,10 +144,6 @@ h5{
 
 .panel-administracion-title{
     text-align: center;
-}
-
-.panel-administracion-tabla{
-    padding-top: 10%;
 }
 
 .panel-administracion-tabla table{
@@ -203,10 +200,20 @@ td{
 .formulario-tex input{
     border: none;
     border-radius: 3rem;
+    padding:  2% 0;
 }
 
 .formulario-close{
+    padding-left: 90%;
+}
 
+.formulario-close button{
+    border: none;
+    background-color: transparent;
+}
+
+.formulario-close svg{
+    width: 1.5rem;
 }
 
 .formulario.active{
