@@ -148,7 +148,8 @@ h5{
 
 .panel-administracion-tabla table{
     margin: auto;
-    width: 50%;
+    width: 100%;
+    background-color: #323C50;
 }
 
 .panel-administracion-tabla td{
@@ -157,10 +158,6 @@ h5{
 
 .panel-administracion-tabla th{
     background-color: #1F2739;
-}
-
-table{
-    background-color: #323C50;
 }
 
 td{
