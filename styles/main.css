@@ -139,7 +139,7 @@ h5{
 
 .panel-administracion-tabla.active{
     transition: all 1s;
-    width: 75%;
+    width: 45%;
 }
 
 .panel-administracion-title{
@@ -178,7 +178,7 @@ td{
 }
 
 .formulario{
-    width: 25%;
+    width: 35%;
     background-color: #323C50;
     padding: 1rem;
     border-radius: 3%;
@@ -198,19 +198,6 @@ td{
     border: none;
     border-radius: 3rem;
     padding:  2% 0;
-}
-
-.formulario-close{
-    padding-left: 90%;
-}
-
-.formulario-close button{
-    border: none;
-    background-color: transparent;
-}
-
-.formulario-close svg{
-    width: 1.5rem;
 }
 
 .formulario.active{
