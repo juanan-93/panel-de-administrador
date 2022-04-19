@@ -18,6 +18,12 @@ main{
     width: 80%;
     padding: 0% 10%;
     z-index: 1000;
+    background-color: #1F2739;
+}
+
+footer{
+    padding: 25% 0;
+    background-color: #1F2739;
 }
 
 .only-desktop{
@@ -105,6 +111,36 @@ img {
     max-width: 100%;
 }
 
+/* ======TIPOGRAFIA================ */
+h1{
+    color: #185875;
+    font-size: 1.5rem;
+}
+
+h3{
+    color: #FB667A;
+}
+
+h5{
+    color: #FB667A;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+
+/* ===========PANEL================ */
+
+
+.panel-administracion-tabla{
+    transition: all 1s;
+    width: 100%;
+}
+
+.panel-administracion-tabla.active{
+    transition: all 1s;
+    width: 75%;
+}
+
 .panel-administracion-title{
     text-align: center;
 }
@@ -120,12 +156,69 @@ img {
 
 .panel-administracion-tabla td{
     text-align: center;
-    padding: 1rem 0;
-    padding: 1rem 0 1rem 0 ;
 }
 
 .panel-administracion-tabla th{
     background-color: #1F2739;
 }
+
+table{
+    background-color: #323C50;
+}
+
+td{
+    border: solid #1F2739;
+    color:aliceblue;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.buttons button{
+    background-color: transparent;
+    border: none;
+}
+
+.buttons svg{
+    width: 1.5rem;
+    color: #1F2739;
+}
+
+.formulario{
+    width: 25%;
+    background-color: #323C50;
+    padding: 1rem;
+    border-radius: 3%;
+    position: absolute;
+    z-index: 500;
+    bottom: 1%;
+    right: -30rem;
+    transition: all 1s;
+}
+
+.formulario-tex{
+    text-align: center;
+    padding: 2.5% 0;
+}
+
+.formulario-tex input{
+    border: none;
+    border-radius: 3rem;
+}
+
+.formulario-close{
+
+}
+
+.formulario.active{
+    transition: all 1s;
+    right:9rem;
+}
+
+.footer-text{
+    text-align: center;
+}
+
+
+
 
  
