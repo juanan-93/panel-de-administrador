@@ -11,6 +11,10 @@ header{
     /* z-index: 1001; */
 }
 
+body{
+    overflow-x: hidden;
+}
+
 main{
     margin: 0 auto;
     position: relative;
@@ -22,7 +26,7 @@ main{
 }
 
 footer{
-    padding: 25% 0;
+    padding: 20%;
     background-color: #1F2739;
 }
 
@@ -110,26 +114,85 @@ footer{
 img {
     max-width: 100%;
 }
+/* =======header================== */
 
-/* ======TIPOGRAFIA================ */
-h1{
-    color: #185875;
-    font-size: 1.5rem;
+.top-menu{
+    display: flex;
 }
 
-h3{
-    color: #FB667A;
+.top-menu-logo{
+    position: absolute;
+    z-index: 2001;
+    width: 2%;
 }
 
-h5{
-    color: #FB667A;
-    font-size: 1rem;
-    font-weight: 900;
+.top-menu-logo svg{
+    width: 3rem;
+}
+
+.top-menu-logo svg path{
+    fill:  hsl(199, 66%, 28%);
+}
+
+.top-menu-button-icon{
+    position: absolute;
+    left: 2%;
+    z-index: 2001;
+}
+
+.top-menu-button-icon:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.top-menu-button-icon button{
+    border:none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.top-menu-button-icon svg{
+    width: 3rem;
+    transition: all 1s;   
+}
+
+.top-menu-button-icon svg path{
+    fill: hsl(199, 66%, 28%);
+}
+
+.top-menu-button-icon svg:hover{
+    transform: rotatex(180deg)
+}
+
+.top-menu-dropdown{
+    background-color: aliceblue;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    top:-100%;
+    transition: all 0.5s;
+}
+
+.top-menu-dropdown.active{
+    transition: all 0.5s;
+    top: 0;
+}
+
+.top-menu-dropdown-options{
+    left: 15%;
+    position: absolute;
+    top: 20vh;
+    width: 90%;
+}
+
+.top-menu-dropdown-label{
+    cursor: pointer;
+    margin: 1rem 0;
 }
 
 
 /* ===========PANEL================ */
-
 
 .panel-administracion-tabla{
     transition: all 1s;
@@ -154,17 +217,29 @@ h5{
 
 .panel-administracion-tabla td{
     text-align: center;
+    border: solid #1F2739;
+    color:aliceblue;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    width: 5%;
+    max-width: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .panel-administracion-tabla th{
     background-color: #1F2739;
+    color: #185875;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
-td{
-    border: solid #1F2739;
-    color:aliceblue;
-    font-weight: 900;
-    font-size: 1rem;
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.2rem 1.5rem;
 }
 
 .buttons button{
@@ -189,26 +264,32 @@ td{
     transition: all 1s;
 }
 
-.formulario-tex{
-    text-align: center;
-    padding: 2.5% 0;
-}
-
-.formulario-tex input{
-    border: none;
-    border-radius: 3rem;
-    padding:  2% 0;
-}
-
 .formulario.active{
     transition: all 1s;
-    right:9rem;
+    right:10rem;
+}
+
+.formulario-texto{
+ text-align: center;
+ padding: 5% 0;
+}
+
+.formulario-texto h5{
+    padding-bottom: 2%;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.formulario-texto input{
+    border: none;
+    border-radius: 3rem;
+    padding:  2% 5%;
 }
 
 .footer-text{
     text-align: center;
 }
-
 
 
 

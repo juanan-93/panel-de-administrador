@@ -10,7 +10,75 @@
 </head>
 <body>
     <header>
-
+        <div class="top-menu">
+            <div class="top-menu-logo">
+                <svg viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M8,10V8H9V4H8V3L12,1L16,3V4H15V8H16V10H14.74L8.44,13.64L9,10H8M13,8V4H11V8H13M7,23L7.04,22.76L16.15,17.5L16.67,20.88L13,23H7M8.05,16.17L15.31,12L15.83,15.37L7.43,20.22L8.05,16.17Z" />
+                </svg>
+            </div>
+            <div class="top-menu-button-icon">
+                <button id="top-menu-button-icon-arrow">
+                    <svg viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M7,15L12,10L17,15H7Z" />
+                    </svg>
+                </button>
+            </div> 
+            <div class="top-menu-dropdown" id="dropdown">   
+                <div class="top-menu-dropdown-options">
+                    <div class="desktop-three-columns mobile-one-column">
+                        <div class="column">
+                            <div class="top-menu-dropdown-label">
+                                <h3>Usuarios</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="top-menu-dropdown-label">
+                                <h3>Oficinas</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="top-menu-dropdown-label">
+                                <h3>Clientes</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desktop-three-columns mobile-one-column">
+                        <div class="column">
+                            <div class="top-menu-dropdown-label">
+                                <h3>Sliders</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="top-menu-dropdown-label">
+                                <h3>Faqs</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="top-menu-dropdown-label">
+                                <h3>Contacto</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desktop-three-columns mobile-one-column">
+                        <div class="column">
+                            <div class="top-menu-dropdown-label">
+                                <h3>Ventas</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="top-menu-dropdown-label">
+                                <h3>sss</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="top-menu-dropdown-label">
+                                <h3>Clientes</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
         <div class="tablet">
@@ -18,26 +86,32 @@
                 <h1>Tabla de adiministracion</h1>
             </div>
             <div class="formulario" id="from">
-                <div class="desktop-one-column">
+                <div class="desktop-two-columns">
                     <div class="column">
-                        <div class="formulario-tex">
+                        <div class="formulario-texto">
                             <h5>Nombre</h5>
                             <input type="text">
                         </div>
-                        <div class="formulario-tex">
+                        <div class="formulario-texto">
                             <h5>Hora</h5>
                             <input type="text">
                         </div>
-                        <div class="formulario-tex">
+                        <div class="formulario-texto">
+                            <h5>DNI</h5>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="formulario-texto">
+                            <h5>Apellidos</h5>
+                            <input type="text">
+                        </div>
+                        <div class="formulario-texto">
+                            <h5>Telefono</h5>
+                            <input type="text">
+                        </div>
+                        <div class="formulario-texto">
                             <h5>Email</h5>
-                            <input type="text">
-                        </div>
-                        <div class="formulario-tex">
-                            <h5>telefono</h5>
-                            <input type="text">
-                        </div>
-                        <div class="formulario-tex">
-                            <h5>Oficina</h5>
                             <input type="text">
                         </div>
                     </div>
@@ -47,19 +121,19 @@
                <div class="column">
                 <div class="panel-administracion-tabla" id="panel-tabla">
                    <table>
-                       <tr>
-                           <th><h1>Oficina</h1></th>
-                           <th><h1>Día</h1></th>
-                           <th><h1>hora</h1></th>
-                           <th><h1>Aforo</h1></th>
-                           <th><h1>Admi</h1></th>
-                       </tr>
-                       <tr>
-                           <td><h3>Palma</h3></td>
-                           <td>1</td>
-                           <td>16:00h</td>
-                           <td>7</td>
-                           <td>
+                        <tr>
+                            <th>Oficina</th>
+                            <th>Día</th>
+                            <th>Hora</th>
+                            <th>Aforo</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Palmass zzssss</td>
+                            <td>1</td>
+                            <td>16:00h</td>
+                            <td>7</td>
+                            <td>
                                 <div class="buttons">
                                     <div class="button-edit">
                                         <button type="button" class="edit">
@@ -77,9 +151,9 @@
                                     </div>
                                 </div>
                             </td>
-                       </tr>
-                       <tr>
-                            <td><h3>Calvia</h3></td>
+                        </tr>
+                        <tr>
+                            <td>Calvia</td>
                             <td>6</td>
                             <td>17:00h</td>
                             <td>5</td>
@@ -103,7 +177,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><h3>Calvia</h3></td>
+                            <td>Calvia</td>
                             <td>6</td>
                             <td>17:00h</td>
                             <td>2</td>
@@ -127,7 +201,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><h3>Calvia</h3></td>
+                            <td>Calvia</td>
                             <td>6</td>
                             <td>17:00h</td>
                             <td>18</td>
@@ -152,7 +226,7 @@
                         </tr>
                         
                         <tr>
-                            <td><h3>Calvia</h3></td>
+                            <td>Calvia</td>
                             <td>6</td>
                             <td>17:00h</td>
                             <td>20</td>
@@ -176,7 +250,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><h3>Consell</h3></td>
+                            <td>Calvia</td>
                             <td>8</td>
                             <td>9:00h</td>
                             <td>3</td>
@@ -206,11 +280,22 @@
             </div>
         </div>
     </main>
+    
     <footer>
         <div class="footer-text">
             <h3>esto es un footer</h3>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Ubuntu:300,700,700i', 'Ubuntu+Condensed:400']
+            }
+        });        
+    </script>
+
     <script type="module" src="main.js"></script>
 
 </body>
