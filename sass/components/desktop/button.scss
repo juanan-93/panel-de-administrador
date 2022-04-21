@@ -1,0 +1,46 @@
+.top-menu-button-icon{
+    position: absolute;
+    left: 2%;
+    z-index: 2001;
+}
+
+.top-menu-button-icon:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.top-menu-button-icon button{
+    border:none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.top-menu-button-icon svg{
+    width: 3rem;
+    transition: all 1s;   
+}
+
+.top-menu-button-icon svg path{
+    fill: hsl(199, 66%, 28%);
+}
+
+.top-menu-button-icon svg:hover{
+    transform: rotatex(180deg)
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.2rem 1.5rem;
+}
+
+.buttons button{
+    background-color: transparent;
+    border: none;
+}
+
+.buttons svg{
+    width: 1.5rem;
+    color: #1F2739;
+}

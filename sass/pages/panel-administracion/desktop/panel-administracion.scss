@@ -1,0 +1,78 @@
+
+.panel-administracion-tabla{
+    transition: all 1s;
+    width: 100%;
+    padding: 10% 0 0 0;
+}
+
+.panel-administracion-tabla.active{
+    transition: all 1s;
+    width: 45%;
+}
+
+.panel-administracion-title{
+    text-align: center;
+}
+
+.panel-administracion-tabla table{
+    margin: auto;
+    width: 100%;
+    background-color: #323C50;
+}
+
+.panel-administracion-tabla td{
+    text-align: center;
+    border: solid #1F2739;
+    color:aliceblue;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    width: 5%;
+    max-width: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.panel-administracion-tabla th{
+    background-color: #1F2739;
+    color: #185875;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.formulario{
+    width: 35%;
+    background-color: #323C50;
+    padding: 1rem;
+    border-radius: 3%;
+    position: absolute;
+    z-index: 500;
+    bottom: 1%;
+    right: -30rem;
+    transition: all 1s;
+}
+
+.formulario.active{
+    transition: all 1s;
+    right:10rem;
+}
+
+.formulario-texto{
+ text-align: center;
+ padding: 5% 0;
+}
+
+.formulario-texto h5{
+    padding-bottom: 2%;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.formulario-texto input{
+    border: none;
+    border-radius: 3rem;
+    padding:  2% 5%;
+}
